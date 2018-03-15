@@ -45,7 +45,7 @@
     </section>
     <section class="form-section">
       <h3 class="form-section-title">Still need help? Fill out the form below.</h3>
-      <form action="https://script.google.com/macros/s/AKfycbx7kfncWVqEsEgNdOwXLyjRPxrDT47INHIVdJXGywLOE3peOyQ/exec" class="form-section-form" method="POST">
+      <form id="gform" data-email="tuneyourhead@gmail.com" action="https://script.google.com/macros/s/AKfycbx7kfncWVqEsEgNdOwXLyjRPxrDT47INHIVdJXGywLOE3peOyQ/exec" class="form-section-form" method="POST">
         <input type="text" class="form-input" required name="name" placeholder="Name*">
         <input type="email" class="form-input" required name="email" placeholder="Email*">
         <textarea id="" cols="30" rows="10" placeholder="Comments*" name="message" required></textarea>
@@ -56,5 +56,7 @@
   <footer class="footer">
     <h3 class="footer-text">&copy; 2018 Supreme Toy and Party - All Rights Reserved.</h3>
   </footer>
+  <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
 </html>
